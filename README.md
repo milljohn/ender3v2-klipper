@@ -46,6 +46,29 @@ Add the following to "Machine end G-code":
 ```
 END_PRINT
 ```
+
+## Setup KlipperScreen
+
+- Hardware:
+    -[I used this screen](https://www.amazon.com/dp/B0BZGW51FY?ref=ppx_yo2ov_dt_b_fed_asin_title)
+    - [USB OTG Cable](https://www.amazon.com/gp/product/B07TYQLQQ2?smid=ATJ0SDIGG41D4&th=1)
+    - [HDMI Cable](https://www.amazon.com/RIIEYOCA-Adapter-Degree-Compatible-Camcorder/dp/B0D2NNX88J?crid=3IVEU75U419CR&dib=eyJ2IjoiMSJ9.YAqx3vtaS26NyXE2VHTxh1WAYA9jPgCO93TWr3PzoM5uri6tfK3V4ZLqGL832eNpW3tpLQ-kqVGRaNmZgkQc_sATRvymd3a-DujHdqX1MOBYTlHag0MiU6wIF5EeTx5U-trJ2HZ0e4WG6GqBEZNU97Bpeeok1F_15lKYGltvbmgdUC7VVH8ljwHWx1mgM1UA2iPnsn-yKtyhl4Bay8TochccF7IvS755almAxMWbmSZWOeaXdKe3N0a6eAaNLSLyiUwqdPKk1PW92qJhPpf5HK9AmPiAgl8Clvk4TZbdx9HriL4HvJ_k-DIK9L5zT4PoWvOxbWhaqjnMPi9hSqJ3UmfiqV3BofkSbSetJTaWWsw.50qtwzQDPRAegoc87i142gf7wR9bvySpE8W9DzrDsmk&dib_tag=se&keywords=hdmi%2Bto%2Bmini%2Bhdmi%2B90%2Bdegree%2Badapter&qid=1742310853&s=industrial&sprefix=hdmi%2Bto%2Bmini%2Bhdmi%2B90%2Bdegree%2Badapter%2Cindustrial%2C118&sr=1-9&th=1)
+    - [HDMI Adapter](https://www.amazon.com/gp/product/B0BN697DWH?smid=A2I8OB8UELUM5B&th=1)
+    - [Case](https://www.thingiverse.com/thing:6961003)
+        - 6 - M3x10
+        - 4 - M3x6
+    - [VESA75 Mount](https://www.thingiverse.com/thing:6379235/files)
+    - [Articulating Arm](https://www.thingiverse.com/thing:2194278/files)
+    - [V-slot mount](https://www.thingiverse.com/thing:5690403/files)
+- SSH into Pi:
+    - ``cd ~ && git clone https://github.com/dw-0/kiauh.git``
+    - ``./kiauh/kiauh.sh``
+        - Use the default for all prompts
+
+See: 
+- [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/Installation/)
+- [Klipper Installation And Update Helper](https://github.com/dw-0/kiauh)
+
 ## Calibrate Z Offset
 
 - home all axies
